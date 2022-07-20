@@ -1,0 +1,37 @@
+@import url('https://www.dfonts.org/fonts/lausanne-regular-font/');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Roboto;
+}
+
+.bg-color {
+    background-color: #D9D9D9;
+}
+
+.btn{
+    background-color: #FFE453;
+}
+
+.post {
+    background-color: #000;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: white;
+  }
+  .post h5 {
+    font-size: 32px;
+  }
+  .post p {
+    font-size: 20px;
+  }
+  .post button {
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 15px;
+    background-color: #FFE453;
+  }
+  .post button:hover {
+    background-color: #1DEBD2;
+  }
