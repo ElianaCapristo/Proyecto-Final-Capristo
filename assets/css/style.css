@@ -1,24 +1,32 @@
-@import url('https://www.dfonts.org/fonts/lausanne-regular-font/');
-
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&family=Roboto:wght@100&display=swap');
 *{
     margin: 0%;
     padding: 0%;
-    font-family: Roboto;
+    box-sizing: border-box;
+    font-family: "Oxygen";
+   
+
+}
+
+.nav {
+    font-size: 50px;
+    
 }
 
 .bg-color {
     background-color: #D9D9D9;
 }
 
-.btn{
+.btn {
     background-color: #FFE453;
 }
 
 .post {
-    background-color: #000;
+   
     border-radius: 5px;
     padding: 8px 15px;
     color: white;
+    background-color: black;
   }
   .post h5 {
     font-size: 32px;
@@ -34,4 +42,86 @@
   }
   .post button:hover {
     background-color: #1DEBD2;
+  }
+
+  #hero {
+    min-height: 100vh;
+    position:relative;
+  }
+
+  video {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    
+  }
+
+  .caja {
+    width: 100%;
+    font-size: 35px;
+    font-family: O;
+    color: black;
+    margin: 30px;
+    padding: 20px;
+    background-color: #D9D9D9;
+  }
+
+  .caja1{
+    width: 100%;
+    background-color: #1DEBD2;
+    font-size: 50px;
+    
+  }
+  .caja2{
+    width: 100%;
+    background-color: #FC536F;
+    font-size: 50px;
+    
+  }
+
+  .caja3{
+    width: 100%;
+    background-color: #FFE453;
+    font-size: 50px;
+    
+  }
+
+  .my-1{
+    background-color: #FFE453;
+    width: 100%;
+    font-size: 50px;
+  
+  }
+
+  .my-4{
+    margin: 30px;
+    padding: 30px;
+    width: 100%;
+    font-size: 50px;
+  }
+  
+  .my-51{
+    width: 100%;
+    background-color: #FFE453;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+
+  }
+
+  
+  .my-6{
+    width: 100%;
+    color: #FC536F;
+    font-size: 120px; 
+    margin: 150px;
+     
+  }
+  
+  .col-12 {
+    margin: 15px;
   }
